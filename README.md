@@ -9,12 +9,13 @@ Toolkit ini menyediakan 5 alat pemrosesan yang dirancang berurutan sesuai dengan
 * **Urutkan & Ekspor Koordinat:** Mengurutkan titik-titik kartometrik secara otomatis mengikuti orientasi putaran garis batas desa (Counter clockwise) menggunakan parameter jarak (*measure on line*), lalu mengekspor seluruh koordinat Lintang, Bujur, dan UTM ke dalam format Excel.
 * **Buat Laporan Deskripsi Batas:** Membangun narasi deskripsi lokasi Titik Kartometrik secara otomatis dengan mengekstrak relasi spasial titik terhadap fitur tata guna lahan, jaringan jalan, sungai, batas desa, dan garis pantai di sekitarnya, lengkap dengan kalkulasi arah mata angin menuju Excel.
 * **Batch Export MXD:** Export ratusan MXD dalam satu kali klik.
+* **Many more**
 
 
 **Panduan Download, Instalasi & Pembaruan**
 
 1. Unduh file `SiMintul.exe` pada halaman [release](https://github.com/ekabudiku/PenegasanBatasDesa/releases/tag/BatasDesa).
 2. Simpan file tersebut di PC/Laptop Anda (direkomendasikan diletakkan di *Desktop*).
-3. Klik ganda (2x) aplikasi tersebut untuk mengunduh dan mengekstrak Toolkit secara otomatis ke direktori `Documents\Batas Desa`.
-4. Buka perangkat lunak ArcGIS, klik kanan pada ArcToolbox -> pilih **Add Toolbox** -> Arahkan ke file `BatasDesa.pyt` di dalam folder instalasi tersebut.
-5. Untuk mendapatkan pembaruan (*update*) sistem di masa mendatang, cukup tutup ArcGIS Anda lalu jalankan kembali `ToolboxBatasDesa.exe`.
+3. Klik ganda (2x) aplikasi, tentukan lokasi tool akan diletakkan
+4. Buka perangkat lunak ArcGIS, buka catalog dan arahkan ke folder yang berisi tools 
+5. Untuk mendapatkan pembaruan (*update*) sistem di masa mendatang, jalankan tool update (token untuk update bisa didapatkan dengan kontak pemilik repo)
